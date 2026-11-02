@@ -54,8 +54,8 @@ const run = async () => {
     const db = client.db('wanderland');
     const addCollection = db.collection('destination');
     const bookingCollection = db.collection('bookings');
-app.get('/destination', (req, res) => {
-  res.send('Destination data here');
+app.get('/', (req, res) => {
+  res.send('Wanderland Server is running successfully!');
 });
     app.get('/destination', async (req, res) => {
       const result =await addCollection.find().toArray();
