@@ -9,13 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@better-auth/mongo-adapter": "^1.7.14",
+    "@gravity-ui/icons": "^2.23.0",
+    "@heroui/react": "^3.2.6",
+    "@heroui/styles": "^3.2.6",
+    "better-auth": "^1.7.14",
+    "mongodb": "^7.7.0",
     "next": "16.4.2",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-icons": "^5.7.0",
+    "react-toastify": "^11.2.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
     "babel-plugin-react-compiler": "1.0.0",
+    "daisyui": "^5.7.50",
     "eslint": "^9",
     "eslint-config-next": "16.4.2",
     "tailwindcss": "^4"
